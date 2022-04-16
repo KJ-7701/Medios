@@ -1,0 +1,128 @@
+
+.login-form input[type=email], .login-form input[type=password]{
+  width: 95%;
+  background-color: #F6F5F3;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 17px;
+  
+}
+
+
+.login-form {
+  margin: 0 30px;
+  text-align: left;
+}
+
+.login-form h1, .login-form h2{
+  margin: 0;
+  text-align: center;
+}
+
+.login-form h2{
+  font-size: 20px;
+}
+
+.login-form h3{
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px;
+
+}
+
+.login-credentials a{
+  font-size: 12px;
+  color: #19110b;
+}
+
+.login-credentials a:visited{
+  color: #19110b;
+}
+
+.login-form hr{
+  margin: 5px 0;
+}
+
+.login-form a{
+  padding: 10px;
+}
+
+
+
+.buttons button{
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background-color: #19110b;
+  cursor: pointer;
+}
+
+
+.create-new-account{
+  text-align: center;
+}
+
+.create-new-account a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  background-color: #19110b;
+}
+
+
+.modal-window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 400ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-window .display {
+  width: 300px;
+  min-height: 450px;
+  background:#fff;
+  position: relative;
+}
+
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-close {
+  color: white;
+  line-height: 50px;
+  font-size: 22px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: -40px;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .modal-window .display {
+    width: 700px;
+    height: 450px;
+    background:#FFF;
+    position: relative;
+  }
+
+  
+}

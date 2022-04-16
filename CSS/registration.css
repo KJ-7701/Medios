@@ -1,0 +1,157 @@
+/************ CREATE ACCOUNT ****************/
+.col-lg-8{
+    padding: 0;
+}
+
+.col-lg-4{
+    width: 33%;
+}
+
+.create-account{
+    padding: 20px 70px 80px;
+    margin: 0;
+    width: 100%;
+    background-color: #F6F5F3;
+    text-align: left;
+}
+
+.create-account h1{
+    font-weight: 900;
+}
+
+.create-account h2{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.create-account h3{
+    margin: 0;
+}
+
+.id-page-form-section {
+    padding: 0;
+}
+
+.information-page-form-section, .information-page-form-section-subscribe {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.information-page-form-section h3{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=tel] {
+    width: 95%;
+    background-color: #F6F5F3;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    width: 95%;
+    background-color: #F6F5F3;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+}
+
+
+#country{
+    text-transform: uppercase;
+}
+
+.information-page-form-section input{
+    text-transform: capitalize;
+}
+
+select{
+    width: 95%;
+    background-color: #F6F5F3;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+}
+
+.proceed{
+    text-align: right;
+}
+
+.proceed .buttons{
+    color: #fff;
+    padding: 20px 50px;
+    background-color: #19110b;
+}
+
+.proceed a.buttons{
+    padding: 19px 50px 22px;
+}
+
+.proceed a{
+    text-decoration: none;
+}
+
+.privacy-policy{
+    font-size: 16px;
+    text-decoration: underline;
+    color: #19110b;
+}
+
+.privacy-policy:hover{
+    color: #19110b;
+}
+
+/************ /CREATE ACCOUNT ****************/
+
+
+/************ JOIN-US **************/
+.join-us{
+    width: 100%;
+    padding: 0 45px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.client-services{
+    padding: 30px 0;
+}
+
+.client-services a{
+    color: #2e2e2e;
+    font-size: 12px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.client-services h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.join-us-message{
+    background-color: #F6F5F3;
+    padding: 20px;
+}
+
+.join-us-message h2{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.join-us-message p{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px;
+    margin: 0;
+}
+
+
+
+/************ /JOIN-US **************/
